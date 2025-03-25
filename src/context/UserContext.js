@@ -9,7 +9,7 @@ export const UserProvider = ({ children }) => {
     return savedUser ? JSON.parse(savedUser) : {
       name: "",
       email: "",
-      address: "",
+      address: "123 Main St",
       isAuthenticated: false
     };
   });
